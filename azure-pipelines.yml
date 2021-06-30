@@ -21,9 +21,8 @@ strategy:
 
 steps:
 
-- checkout: git@github.com:Shivaprasadr/facegame.git
-- checkout: git@github.com:nikitha304/waste.git
-- checkout: git@github.com:Shivaprasadr/mypoker.git
+- checkout: git@github.dxc.com:build-analytics/roboticdrive-vecu.git
+
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '$(python.version)'
